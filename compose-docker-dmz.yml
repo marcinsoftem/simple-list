@@ -1,0 +1,12 @@
+services:
+  backend:
+    build:
+      context: backend
+      args:
+        BUILD_MODE: prod-docker-dmz
+    ports:
+      - 8080:8080
+  web:
+    build: web
+    ports:
+      - 8503:80
