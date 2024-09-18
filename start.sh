@@ -1,1 +1,1 @@
-docker compose -f compose-docker-dmz.yml up
+docker compose -f compose-docker-dmz.yml up -d
