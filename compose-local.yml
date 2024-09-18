@@ -1,12 +1,12 @@
 services:
   backend:
-    build:
-      context: backend
-      args:
-        BUILD_MODE: prod-local
+    build: backend
     ports:
       - 8080:8080
   web:
-    build: web
+    build:
+      context: web
+      args:
+        BUILD_MODE: prod-local
     ports:
       - 80:80

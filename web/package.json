@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev-docker-dmz": "vite --mode dev-docker-dmz",
+    "dev-docker-dmz": "vite --mode docker-dmz",
+    "dev-local": "vite --mode development",
+    "prod-docker-dmz": "vite build --mode docker-dmz",
+    "prod-local": "vite build --mode development",
     "build": "vite build",
     "preview": "vite preview"
   },

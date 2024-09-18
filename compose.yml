@@ -1,9 +1,0 @@
-services:
-  api:
-    image: springboot
-    ports:
-      - 8080:8080
-  web:
-    image: vue
-    ports:
-      - 8503:80
