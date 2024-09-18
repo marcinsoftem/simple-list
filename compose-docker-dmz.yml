@@ -7,6 +7,6 @@ services:
     build:
       context: web
       args:
-        BUILD_MODE: prod-local
+        BUILD_MODE: prod-docker-dmz
     ports:
       - 8503:80
